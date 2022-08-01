@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+}
+
+#input, #list {
+    display: inline-block;
+}
+
+#list {
+    padding: 0 50px;
+    list-style-type: decimal-leading-zero;
+}
+
+#list span  {
+    margin-left: 5px;
+}
+
+#list .mark {
+    color: blue;
+    cursor: pointer;
+}
+
+#list .remove {
+    color: red;
+    cursor: pointer;
+}
+
+#list .remove:hover, #list .mark:hover {
+    text-decoration: underline;
+}
