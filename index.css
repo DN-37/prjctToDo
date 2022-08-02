@@ -28,3 +28,7 @@ body {
 #list .remove:hover, #list .mark:hover {
     text-decoration: underline;
 }
+
+#list .done .task {
+    text-decoration: line-through;
+}
